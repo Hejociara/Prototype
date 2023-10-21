@@ -1,10 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@300;500;700&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .cabecalho{
     font-family: 'Playpen Sans', cursive;
     font-weight: 300;
 }
 
 .cabecalho__azul{
-    background-color: #120a8f;
+    padding: 15px;
+    background-color: #0b1d51;
+    color: #ffffff;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.cabecalho__comprar{
+    color: #ffffff;
+    text-decoration: none;
+}
+.cabecalho__comprar:hover{
+    color: aquamarine;
+}
+.cabecalho__branco{
+    display: flex;
 }
